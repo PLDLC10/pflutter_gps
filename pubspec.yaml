@@ -7,16 +7,16 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.0
+  sdk: ">=3.6.0 <4.0.0"
 
 
 dependencies:
   flutter:
     sdk: flutter
   geolocator: ^10.0.0
-  arcore-android-sdk-main:
-    path: C:/Users/user/Documents/repo/ar_flutter_plugin-0.7.3
+
   cupertino_icons: ^1.0.8
+
 
 dev_dependencies:
   flutter_test:
@@ -27,7 +27,5 @@ dev_dependencies:
 
 
 flutter:
-
-
   uses-material-design: true
 
